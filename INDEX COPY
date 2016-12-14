@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rossosaurs.github.io</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="/chapter1.html">Chapter 1</a></li>
+        <li><a href="/chapter2.html">Chapter 2</a></li>
+        <li><a href="chapter3.html">Chapter 3</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+    
+   
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/login.png"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Ross Rawlings</h1>
+    <p>"if you judge a fish on its ability to climb a tree, it will 
+spend its entire life  believeing that its stupid" ~Albert Enstien</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+  <h3> Things that i like </h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>NYC</p>
+      <img src="/NYC.jpg"  style="width:100%" alt="NYC">
+    </div>
+    <div class="col-sm-3">
+      <p>Doggo</p>
+      <img src="bulldogride.gif"  style="width:100%" alt="bulldogride">
+    </div>
+    <div class="col-sm-3">
+      <p>ZX-6R</p>
+      <img src="/zx6r2.jpg"  style="width:100%" alt="zx6r">
+    </div>
+    <div class="col-sm-3">
+      <p>GTR</p>
+     <img src="/GTR.jpg"  style="width:100%" alt="GTR">
+    </div>
+  </div>
+</div><br>
+
+
+<br><br>
+
+<footer class="container-fluid text-center">
+  <p>I hate Kason Culbertson</p>
+</footer>
+
+</body>
+</html>
+
